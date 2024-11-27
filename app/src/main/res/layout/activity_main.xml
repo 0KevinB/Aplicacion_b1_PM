@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="sans-serif-medium"
+        android:text="MENU PRINCIPAL"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_formulario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+    <Button
+        android:id="@+id/button_formulario"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/blue"
+        android:text="FORMULARIO"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184" />
+
+    <Button
+        android:id="@+id/button_imagen"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/blue"
+        android:text="IMAGEN"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/button_formulario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_rows"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/blue"
+        android:text="ROWS"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/button_imagen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_columns"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/blue"
+        android:text="COLUMNS"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/button_rows"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_rowcolumns"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/blue"
+        android:text="ROW-COLUMNS"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/button_columns"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_localizacion"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/blue"
+        android:text="LOCALIZACION"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/button_rowcolumns"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_podometro"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/blue"
+        android:text="PODOMETRO"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/button_localizacion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_camara"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/blue"
+        android:text="CAMARA"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/button_podometro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
