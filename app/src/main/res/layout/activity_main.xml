@@ -122,4 +122,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <Button
+        android:id="@+id/button_registro"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="@color/blue"
+        android:text="Registro"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_podometro" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="@color/blue"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_podometro" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

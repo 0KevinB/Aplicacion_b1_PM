@@ -74,7 +74,16 @@ class MainActivity : AppCompatActivity() {
             val cambiar_ventana = Intent(this, podometro::class.java)
             startActivity(cambiar_ventana)
         }
-
+        val buttonRegistro = findViewById<Button>(R.id.button_registro)
+        buttonRegistro.setOnClickListener() {
+            val cambiar_ventana = Intent(this, Registro::class.java)
+            startActivity(cambiar_ventana)
+        }
+        val buttonLoin= findViewById<Button>(R.id.button_login)
+        buttonLoin.setOnClickListener() {
+            val cambiar_ventana = Intent(this, login::class.java)
+            startActivity(cambiar_ventana)
+        }
     }
 
     }
